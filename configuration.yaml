@@ -13,14 +13,6 @@ history:
 logbook:
 conversation:
 
-# Weather Prediction
-sensor:
-  platform: yr
-
-# Text to speech
-tts:
-  platform: google
-
 
 # mqtt:
 #   broker: 127.0.0.1
@@ -35,6 +27,14 @@ tts:
 
 emulated_hue:
   host_ip: !secret pi_ip
+
+# Weather Prediction
+sensor:
+  platform: yr
+
+# Text to speech
+tts:
+  platform: google
 
 ##############
 ## Hardware ##
