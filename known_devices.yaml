@@ -1,0 +1,24 @@
+
+649abee500a4:
+  hide_if_away: false
+  mac: 64:9A:BE:E5:00:A4
+  name: Rod 
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+fce99846e0c5:
+  hide_if_away: false
+  mac: FC:E9:98:46:E0:C5
+  name: Robin
+  picture:
+  track: true
+  vendor: unknown
+
+2c33614bbb27:
+  hide_if_away: false
+  mac: 2C:33:61:4B:BB:27
+  name: Will
+  picture:
+  track: true
+  vendor: Apple, Inc.
