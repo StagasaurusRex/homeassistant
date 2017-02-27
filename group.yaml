@@ -1,0 +1,52 @@
+################
+## Group.yaml ##
+################
+
+###########
+## Views ##
+###########
+
+############
+## Groups ##
+############
+living room lights lifx:
+  - light.fireplace
+
+living room lights hue:
+  - light.knitting
+  - light.moose
+  - light.tiffany
+
+living room lights:
+  - group.living_room_lights_hue
+  - group.living_room_lights_lifx
+
+kitchen lights lifx:
+  - light.dishwasher
+  - light.fridge
+  - light.map
+  - light.stove
+
+kitchen lights:
+  - group.kitchen_lights_lifx
+
+entry lights lifx:
+  - light.entry
+  - light.entry_closet
+
+entry lights:
+  - group.entry_lights_lifx
+
+entry:
+  - group.entry_lights
+
+entryway:
+  - group.entry_lights
+
+all lights:
+  - group.entry_lights
+  - group.kitchen_lights
+  - group.living_room_lights
+
+all my lights:
+  group.all_lights

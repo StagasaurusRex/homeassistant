@@ -13,6 +13,8 @@ history:
 logbook:
 conversation:
 
+group: !include group.yaml
+
 
 # mqtt:
 #   broker: 127.0.0.1
