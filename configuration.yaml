@@ -31,3 +31,13 @@ mqtt:
 
 zwave:
   usb_path: /dev/ttyACM0
+
+##############
+## Hardware ##
+##############
+
+light:
+  - platform: hue
+    host: 192.168.0.201
+    allow_unreachable: true
+  - platform: lifx
