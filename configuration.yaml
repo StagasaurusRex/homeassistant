@@ -2,7 +2,7 @@
 ## General Configurations ##
 ############################
 
-homeassistant: !homeassistant.yaml
+homeassistant: !include homeassistant.yaml
 
 http: !include http.yaml
 
