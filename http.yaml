@@ -1,2 +1,4 @@
 api_password: !secret api_password
+ssl_certificate: /etc/letsencrypt/live/staggshome.duckdns.org/fullchain.pem
+ssl_key: /etc/letsencrypt/live/staggshome.duckdns.org/privkey.pem
 base_url: !secret base_url
