@@ -1,0 +1,11 @@
+group.living_room_lights_hue:
+  emulated_hue: false
+
+group.living_room_lights_lifx:
+  emulated_hue: false
+
+group.kitchen_lights_lifx:
+  emulated_hue: false
+
+group.entry_lights_lifx:
+  emulated_hue: false
