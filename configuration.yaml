@@ -34,7 +34,6 @@ tts:
 ##############
 
 emulated_hue:
-  type: alexa
   host_ip: !secret pi_ip
 
 ##############
