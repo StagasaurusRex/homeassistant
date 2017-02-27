@@ -1,14 +1,14 @@
 2fca3e09d69842a88d1147d6d010e99e:
   hide_if_away: false
-  mac: 64:9A:BE:E5:00:A4
+  mac: !secret rods_mac 
   name: Rod 
   picture:
   track: true
   vendor: Apple, Inc.
 
-fce99846e0c5:
+7ec950f9d4f84cac94c0eddb9de85823:
   hide_if_away: false
-  mac: FC:E9:98:46:E0:C5
+  mac: !secret robins_mac 
   name: Robin
   picture:
   track: true
@@ -16,17 +16,9 @@ fce99846e0c5:
 
 1a6ab810cf3d45608ad16b2f761b5043:
   hide_if_away: false
-  mac: 2C:33:61:4B:BB:27
+  mac: !secret wills_mac 
   name: Will
   picture:
   track: true
   vendor: Apple, Inc.
 
-
-2fca3e09d69842a88d1147d6d010e99e:
-  hide_if_away: false
-  mac:
-  name: 2fca3e09d69842a88d1147d6d010e99e
-  picture:
-  track: true
-  vendor:
