@@ -28,3 +28,6 @@ mqtt:
   client_id: home-assistant-1
   username: pi
   password: raspberry
+
+zwave:
+  usb_path: /dev/ttyACM0
