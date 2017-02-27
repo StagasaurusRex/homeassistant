@@ -22,12 +22,12 @@ tts:
   platform: google
 
 
-mqtt:
-  broker: 127.0.0.1
-  port: 1883
-  client_id: home-assistant-1
-  username: pi
-  password: raspberry
+# mqtt:
+#   broker: 127.0.0.1
+#   port: 1883
+#   client_id: home-assistant-1
+#   username: pi
+#   password: raspberry
 
 ##############
 ## Software ##
