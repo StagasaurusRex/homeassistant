@@ -24,6 +24,7 @@ conversation:
 ##############
 ## Software ##
 ##############
+device_tracker: !include device_tracker.yaml
 
 emulated_hue:
   host_ip: !secret pi_ip
