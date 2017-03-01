@@ -43,10 +43,5 @@ entry:
 entryway:
   - group.entry_lights
 
-all lights:
-  - group.entry_lights
-  - group.kitchen_lights
-  - group.living_room_lights
-
 all my lights:
   group.all_lights
