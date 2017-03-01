@@ -27,6 +27,7 @@ group: !include group.yaml
 ##############
 device_tracker: !include device_tracker.yaml
 
+notify: !include notify.yaml
 
 # Weather Prediction
 sensor:
