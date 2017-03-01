@@ -48,6 +48,7 @@ light:
     host: 192.168.0.201
     allow_unreachable: true
   - platform: lifx
+    broadcast: 192.168.1.255
 
 zwave:
   usb_path: /dev/ttyACM0
