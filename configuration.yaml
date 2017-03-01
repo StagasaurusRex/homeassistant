@@ -27,8 +27,6 @@ group: !include group.yaml
 ##############
 device_tracker: !include device_tracker.yaml
 
-emulated_hue:
-  host_ip: !secret pi_ip
 
 # Weather Prediction
 sensor:
@@ -48,6 +46,9 @@ light:
     allow_unreachable: true
   - platform: lifx
     broadcast: 192.168.0.255
+
+emulated_hue:
+  host_ip: !secret pi_ip
 
 zwave:
   usb_path: /dev/ttyACM0
