@@ -11,4 +11,4 @@ group.entry_lights_lifx:
   emulated_hue: false
 
 group.parents:
-  hide_entity: true
+  hidden: true
