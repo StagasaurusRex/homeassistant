@@ -9,13 +9,14 @@
 ############
 ## Groups ##
 ############
+
 lifx lights:
-  -group.living_room_lights_lifx
-  -group.kitchen_lights_lifx
-  -group.entry_lights_lifx
+  - group.living_room_lights_lifx
+  - group.kitchen_lights_lifx
+  - group.entry_lights_lifx
 
 hue lights:
-  -group.living_room_lights_hue
+  - group.living_room_lights_hue
 
 living room lights lifx:
   - light.fireplace
