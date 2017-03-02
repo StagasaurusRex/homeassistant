@@ -1,0 +1,21 @@
+name: concentration
+entities:
+  group.hue_lights:
+    state: on
+    rgb_color: [ 255, 230, 192 ]
+    brightness: 255
+  light.fireplace:
+    state: on
+    rgb_color: [ 202, 202, 202 ]
+    color_temp: 366
+    brightness: 203
+  group.kitchen_lights:
+    state: on
+    rgb_color: [ 202, 202, 202 ]
+    color_temp: 366
+    brightness: 255
+  group.entry_lights:
+    state: on
+    rgb_color: [ 202, 202, 202 ]
+    color_temp: 366
+    brightness: 255

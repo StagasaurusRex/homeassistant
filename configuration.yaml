@@ -16,6 +16,7 @@ conversation:
 group: !include group.yaml
 
 automation: !include_dir_list automation
+scene: !include_dir_list scenes
 
 # mqtt:
 #   broker: 127.0.0.1
