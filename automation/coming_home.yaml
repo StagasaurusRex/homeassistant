@@ -1,4 +1,5 @@
 alias: "Pushbullet Notifications when someone is almost home"
+hide_entity: true
 trigger:
   platform: state
   entity_id:
