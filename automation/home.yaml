@@ -1,0 +1,11 @@
+alias: "Pushbullet Notifications when someone comes home"
+hide_entity: true
+trigger:
+  platform: state
+  entity_id: group.parents
+  to: 'home'
+action:
+  service: notify.wills_notify
+  data:
+    title: "Home"
+    message: "Parent is home"

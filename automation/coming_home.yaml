@@ -1,4 +1,4 @@
-alias: "Pushbullet Notifications when someone comes home"
+alias: "Pushbullet Notifications when someone is almost home"
 hide_entity: true
 trigger:
   platform: state
