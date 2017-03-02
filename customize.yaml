@@ -24,3 +24,6 @@ group.hue_lights:
 
 group.parents:
   hidden: true
+
+group.entry:
+  hidden: true
