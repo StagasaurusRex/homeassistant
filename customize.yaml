@@ -9,3 +9,6 @@ group.kitchen_lights_lifx:
 
 group.entry_lights_lifx:
   emulated_hue: false
+
+group.parents:
+  hide_entity: true
