@@ -46,6 +46,10 @@ entryway:
 all my lights:
   - group.all_lights
 
+all mobile devices:
+  - group.parents
+  - device_tracker.1a6ab810cf3d45608ad16b2f761b5043
+
 parents:
   - device_tracker.2fca3e09d69842a88d1147d6d010e99e
   - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
