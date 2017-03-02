@@ -14,10 +14,6 @@ group.kitchen_lights_lifx:
   emulated_hue: false
   hidden: true
 
-group.entry_lights_lifx:
-  emulated_hue: false
-  hidden: true
-
 group.lifx_lights:
   emulated_hue: false
   hidden: true
