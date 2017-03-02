@@ -44,4 +44,8 @@ entryway:
   - group.entry_lights
 
 all my lights:
-  group.all_lights
+  - group.all_lights
+
+parents:
+  - device_tracker.2fca3e09d69842a88d1147d6d010e99e
+  - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
