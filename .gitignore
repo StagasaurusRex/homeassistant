@@ -7,3 +7,4 @@ secrets.yaml
 OZW_Log.txt
 pyozw.sqlite
 phue.conf
+emulated_hue_ids.json
