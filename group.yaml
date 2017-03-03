@@ -58,6 +58,9 @@ entry:
 entryway:
   - group.entry_lights
 
+all lights:
+  - group.all_my_lights
+
 all my lights:
   - group.entry_lights
   - group.living_room_lights
