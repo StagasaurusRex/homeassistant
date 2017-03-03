@@ -53,10 +53,7 @@ light:
 
 emulated_hue:
   host_ip: !secret pi_ip
-  exposed_domains:
-    - light
-    - scene
-    - input_boolean
+  expose_by_default: false
 
 zwave:
   usb_path: /dev/ttyACM0
