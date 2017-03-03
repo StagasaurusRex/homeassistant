@@ -12,8 +12,8 @@
 
 lifx lights:
   - group.living_room_lights_lifx
-  - group.kitchen_lights_lifx
-  - group.entry_lights_lifx
+  - group.kitchen_lights
+  - group.entry_lights
 
 hue lights:
   - group.living_room_lights_hue
@@ -32,21 +32,11 @@ living room lights:
   - light.tiffany
   - light.fireplace
 
-kitchen lights lifx:
-  - light.dishwasher
-  - light.fridge
-  - light.map
-  - light.stove
-
 kitchen lights:
   - light.dishwasher
   - light.fridge
   - light.map
   - light.stove
-
-entry lights lifx:
-  - light.entry
-  - light.entry_closet
 
 entry lights:
   - light.entry
