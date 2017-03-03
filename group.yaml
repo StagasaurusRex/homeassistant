@@ -59,7 +59,9 @@ entryway:
   - group.entry_lights
 
 all my lights:
-  - group.all_lights
+  - group.entry_lights
+  - group.living_room_lights
+  - group.kitchen_lights
 
 all mobile devices:
   - device_tracker.1a6ab810cf3d45608ad16b2f761b5043
