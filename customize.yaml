@@ -1,2 +1,48 @@
+##################
+## Emulated Hue ##
+##################
+
 group.all_my_lights:
+  emulated_hue: true
+
+group.all_lights:
+  emulated_hue: true
+
+light.knitting:
+  emulated_hue: true
+
+light.moose:
+  emulated_hue: true
+
+light.tiffany:
+  emulated_hue: true
+
+light.fireplace:
+  emulated_hue: true
+
+light.entry:
+  emulated_hue: true
+
+light.entry_closet:
+  emulated_hue: true
+
+light.dishwasher:
+  emulated_hue: true
+
+light.fridge:
+  emulated_hue: true
+
+light.map:
+  emulated_hue: true
+
+light.stove:
+  emulated_hue: true
+
+group.living_room_lights:
+  emulated_hue: true
+
+group.kitchen_lights:
+  emulated_hue: true
+
+group.entry_lights:
   emulated_hue: true
