@@ -46,3 +46,19 @@ group.kitchen_lights:
 
 group.entry_lights:
   emulated_hue: true
+
+############
+## Hidden ##
+############
+
+group.living_room_lights_lifx:
+  hidden: true
+
+group.living_room_lights_hue:
+  hidden: true
+
+group.lifx_lights:
+  hidden: true
+
+group.hue_lights:
+  hidden: true
