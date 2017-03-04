@@ -47,6 +47,18 @@ group.kitchen_lights:
 group.entry_lights:
   emulated_hue: true
 
+group.the_lights:
+  emulated_hue: true
+
+scene.concentration:
+  emulated_hue: true
+
+scene.relaxation:
+  emulated_hue: true
+
+scene.bedtime:
+  emulated_hue: true
+
 ############
 ## Hidden ##
 ############
