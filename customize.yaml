@@ -48,9 +48,6 @@ group.kitchen_lights:
 group.entry_lights:
   emulated_hue: true
 
-group.the_lights:
-  emulated_hue: true
-
 scene.concentration:
   emulated_hue: true
 
@@ -71,7 +68,4 @@ group.living_room_lights_hue:
   hidden: true
 
 group.lifx_lights:
-  hidden: true
-
-group.hue_lights:
   hidden: true
