@@ -74,3 +74,6 @@ group.lifx_lights:
 
 group.hue_lights:
   hidden: true
+
+group.all_my_lights:
+  hidden: true
