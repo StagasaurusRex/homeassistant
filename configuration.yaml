@@ -36,9 +36,6 @@ notify: !include notify.yaml
 sensor:
   platform: yr
 
-# Text to speech
-tts:
-  platform: google
 
 ##############
 ## Hardware ##
