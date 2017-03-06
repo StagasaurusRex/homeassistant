@@ -36,6 +36,7 @@ notify: !include notify.yaml
 sensor:
   platform: yr
 
+sun:
 
 ##############
 ## Hardware ##
