@@ -69,3 +69,9 @@ group.living_room_lights_hue:
 
 group.lifx_lights:
   hidden: true
+
+group.entry:
+  hidden: true
+
+group.entryway:
+  hidden: true
