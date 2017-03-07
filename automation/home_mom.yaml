@@ -3,11 +3,10 @@ hide_entity: true
 trigger:
   platform: state
   entity_id:
-    - device_tracker.2fca3e09d69842a88d1147d6d010e99e
     - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
   to: 'home'
 action:
   service: notify.wills_notify
   data:
-    title: "Home"
-    message: "Parent is home"
+    title: "Mom's Home"
+    message: "Mom is home"
