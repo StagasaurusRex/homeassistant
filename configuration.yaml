@@ -8,7 +8,6 @@ http: !include http.yaml
 
 frontend:
 updater:
-sun:
 history:
 logbook:
 conversation:
