@@ -16,6 +16,7 @@ group: !include group.yaml
 
 automation: !include_dir_list automation
 scene: !include_dir_list scenes
+input_boolean: !include input_boolean.yaml
 
 # mqtt:
 #   broker: 127.0.0.1
