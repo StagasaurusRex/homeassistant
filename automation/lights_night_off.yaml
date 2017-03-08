@@ -1,4 +1,4 @@
-alias: 'Turn off all room lights @ 12am'
+alias: 'Turn off all lights at midnight'
 trigger:
   platform: time
   after: '23:59:59'
