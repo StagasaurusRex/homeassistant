@@ -1,0 +1,7 @@
+alias: 'Turn off all room lights @ 12am'
+trigger:
+  platform: time
+  after: '23:59:59'
+action:
+  service: light.turn_off
+  entity_id: group.all_lights
