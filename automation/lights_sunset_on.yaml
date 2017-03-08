@@ -1,0 +1,17 @@
+alias: 'Turn on all lights when sun sets'
+trigger:
+  platform: sun
+  event: sunset
+  offset: "-01:00:00"
+condition:
+  condition: or
+  conditions:
+  - condition: state
+    entity_id: group.all_mobile_devices
+    state: 'home'
+  - condition: state
+    entity_id: input_boolean.simulate_presence
+    state: 'on'
+action:
+  service: scene.turn_on
+  entity_id: scene.concentrate
