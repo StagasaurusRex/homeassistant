@@ -10,3 +10,4 @@ action:
   data:
     title: "Mom's Home"
     message: "Mom is home"
+    target: "device/Anubis"
