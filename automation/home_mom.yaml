@@ -5,6 +5,10 @@ trigger:
   entity_id:
     - device_tracker.7ec950f9d4f84cac94c0eddb9de85823
   to: 'home'
+condition:
+  condition: state
+  entity_id: device_tracker.1a6ab810cf3d45608ad16b2f761b5043
+  state: 'home'
 action:
   service: notify.wills_notify
   data:
