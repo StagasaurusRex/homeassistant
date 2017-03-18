@@ -6,6 +6,10 @@ group.all_my_lights:
   emulated_hue: true
   hidden: true
 
+group.our_lights:
+  emulated_hue: true
+  hidden: true
+
 group.all_lights:
   emulated_hue: true
 
