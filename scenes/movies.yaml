@@ -6,7 +6,9 @@ entities:
     state: off
   group.living_room_lights_lifx:
     state: off
-  group.living_room_lights_hue:
+  light.moose:
+    state: off
+  light.knitting:
     state: off
   light.tiffany:
     state: on
