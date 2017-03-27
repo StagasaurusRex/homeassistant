@@ -1,0 +1,8 @@
+name: cooking
+entities:
+  group.kitchen_lights:
+    state: on
+    rgb_color: [ 253, 253, 253 ]
+    color_temp: 154
+    brightness: 255
+    
