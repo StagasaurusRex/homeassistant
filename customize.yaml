@@ -61,6 +61,12 @@ scene.relaxation:
 scene.bedtime:
   emulated_hue: true
 
+scene.cooking:
+  emulated_hue: true
+
+scene.movies:
+  emulated_hue: true
+
 ############
 ## Hidden ##
 ############
