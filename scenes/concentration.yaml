@@ -4,7 +4,7 @@ entities:
     state: on
     rgb_color: [ 255, 255, 255 ]
     brightness: 255
-  light.fireplace:
+  group.living_room_lights_lifx:
     state: on
     rgb_color: [ 253, 253, 253 ]
     color_temp: 154
