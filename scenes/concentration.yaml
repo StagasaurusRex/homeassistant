@@ -2,20 +2,20 @@ name: concentration
 entities:
   group.hue_lights:
     state: on
-    rgb_color: [ 255, 230, 192 ]
+    rgb_color: [ 255, 255, 255 ]
     brightness: 255
   light.fireplace:
     state: on
-    rgb_color: [ 202, 202, 202 ]
-    color_temp: 366
-    brightness: 203
+    rgb_color: [ 253, 253, 253 ]
+    color_temp: 154
+    brightness: 255
   group.kitchen_lights:
     state: on
-    rgb_color: [ 202, 202, 202 ]
-    color_temp: 366
+    rgb_color: [ 253, 253, 253 ]
+    color_temp: 154
     brightness: 255
   group.entry_lights:
     state: on
-    rgb_color: [ 202, 202, 202 ]
-    color_temp: 366
+    rgb_color: [ 253, 253, 253 ]
+    color_temp: 154
     brightness: 255
