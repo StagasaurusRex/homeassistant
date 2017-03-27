@@ -1,0 +1,12 @@
+name: movies
+entities:
+  group.kitchen_lights:
+    state: off
+  group.entry_lights:
+    state: off
+  group.living_room_lights_lifx:
+    state: off
+  group.living_room_lights_hue:
+    state: on
+    rgb_color: [ 243, 180, 80 ]
+    brightness: 144
